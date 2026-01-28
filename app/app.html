@@ -1,0 +1,175 @@
+<!-- 
+
+LEWITCH
+
+AUTHOR = {
+    Sean {
+        Main UI
+        Scripting    
+    }
+    Gemini {
+        Fonts
+        Animations
+        rewriting website text to sound professional.
+    }
+}
+
+-->
+
+
+<!-- 
+
+RUST GLOBAL:
+    title
+    desc
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Heavy Music & Digital Tools">
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" />
+    
+    <style>
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #666; }
+    </style>
+    <title>lewitch</title>
+</head>
+<body class="h-screen w-screen overflow-hidden bg-black text-gray-100 font-sans">
+    
+    <div class="fixed inset-0 z-0">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('assets/lw2.png');"></div>
+        <div class="absolute inset-0 bg-black/80 backdrop-blur-sm"></div>
+    </div>
+
+    <div class="relative z-10 flex h-full">
+
+        <aside class="hidden md:flex flex-col w-64 h-full border-r border-white/10 bg-black/40 backdrop-blur-md shrink-0">
+            <div class="p-6 text-center">
+                <div class="text-3xl font-bold tracking-tighter text-white">Lewitch</div>
+                <!-- <div class="text-xs text-gray-500 font-mono mt-1">v0.0.1</div> -->
+            </div>
+
+            <div class="h-px w-full bg-gradient-to-r from-transparent via-gray-700 to-transparent my-2"></div>
+
+            <nav class="flex-1 px-4 py-4 space-y-2">
+                <button onclick="openTab('home')" class="nav-btn w-full flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-all duration-300 text-left group focus:outline-none focus:bg-white/10 ring-1 ring-transparent focus:ring-white/20">
+                    <span class="material-symbols-outlined text-gray-400 group-hover:text-white transition-colors">home</span>
+                    <span class="font-medium text-gray-300 group-hover:text-white">Home</span>
+                </button>
+
+                <button onclick="openTab('tracks')" class="nav-btn w-full flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-all duration-300 text-left group">
+                    <span class="material-symbols-outlined text-gray-400 group-hover:text-white transition-colors">library_music</span>
+                    <span class="font-medium text-gray-300 group-hover:text-white">Tracks</span>
+                </button>
+
+                <button onclick="openTab('software')" class="nav-btn w-full flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-all duration-300 text-left group">
+                    <span class="material-symbols-outlined text-gray-400 group-hover:text-white transition-colors">apps</span>
+                    <span class="font-medium text-gray-300 group-hover:text-white">Software</span>
+                </button>
+
+                <button onclick="openTab('settings')" class="nav-btn w-full flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-all duration-300 text-left group">
+                    <span class="material-symbols-outlined text-gray-400 group-hover:text-white transition-colors">settings</span>
+                    <span class="font-medium text-gray-300 group-hover:text-white">Settings</span>
+                </button>
+
+                <button onclick="openTab('logos')" class="nav-btn w-full flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-all duration-300 text-left group">
+                    <span class="material-symbols-outlined text-gray-400 group-hover:text-white transition-colors">camera</span>
+                    <span class="font-medium text-gray-300 group-hover:text-white">Logos</span>
+                </button>
+            </nav>
+            
+            <div class="p-4 text-xs text-center text-gray-600">
+                &copy; 2024 Lewitch Org
+            </div>
+        </aside>
+
+        <main class="flex-1 h-full overflow-y-auto relative scroll-smooth">
+            <div class="max-w-6xl mx-auto p-6 md:p-12 pb-24">
+                <div id="home" class="tab-content animate-fade-in">
+                    <div class="w-full flex flex-col items-center justify-center mb-16 text-center">
+                        <h1 class="text-6xl md:text-8xl font-black tracking-tighter mb-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-600">
+                            LEWITCH
+                        </h1>
+                        <p class="text-gray-400 text-lg">Heavy Music & Digital Tools</p>
+                    </div>
+
+                    <div class="flex flex-col gap-8">
+                        <div class="bg-white/5 border border-white/10 p-8 rounded-2xl backdrop-blur-sm hover:bg-white/10 transition duration-500">
+                            <h2 class="text-2xl font-bold mb-3 text-white">What is Lewitch?</h2>
+                            <p class="text-gray-300 leading-relaxed">
+                                Lewitch is a collective organization dedicated to metal genres. We bridge the gap between aggressive audio and modern technology.
+                            </p>
+                        </div>
+
+                        <div class="flex justify-end">
+                            <div class="w-full md:w-3/4 bg-gradient-to-br from-neutral-900 to-neutral-800 border border-white/10 p-8 rounded-2xl shadow-xl">
+                                <h2 class="text-2xl font-bold mb-3 text-white text-right">What do we offer?</h2>
+                                <p class="text-gray-300 leading-relaxed text-right">
+                                    We provide a comprehensive ecosystem for artists and listeners, including proprietary software tools, exclusive merchandise, and high-fidelity music distribution.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tracks" class="tab-content hidden animate-fade-in">
+                    <h1 class="text-4xl font-bold mb-6">Tracks</h1>
+                    <div class="p-6 bg-red-900/20 border border-red-500/30 rounded-lg text-red-200 flex items-center gap-3">
+                        <span class="material-symbols-outlined">warning</span>
+                        <p>Spotify integration is currently undergoing maintenance. Please check back later.</p>
+                    </div>
+                </div>
+
+                <div id="software" class="tab-content hidden animate-fade-in">
+                    <h1 class="text-4xl font-bold mb-8">Software</h1>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div class="aspect-video bg-white/5 rounded-xl border border-white/10 flex items-center justify-center text-gray-500">
+                            No apps released yet.
+                        </div>
+                    </div>
+                </div>
+
+                <div id="settings" class="tab-content hidden animate-fade-in">
+                    <h1 class="text-4xl font-bold mb-8">Settings</h1>
+                    <div class="max-w-xl">
+                        <div class="bg-white/5 rounded-xl p-6 border border-white/10">
+                            <p class="text-gray-400">Configuration options are not yet available.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="logos" class="tab-content hidden animate-fade-in">
+                    <h1 class="text-4xl font-bold mb-8">Asset Library</h1>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <div class="group relative aspect-square bg-white/5 rounded-xl overflow-hidden border border-white/10">
+                            <img src="assets/lw1.png" alt="Logo 1" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        </div>
+                        <div class="group relative aspect-square bg-white/5 rounded-xl overflow-hidden border border-white/10">
+                            <img src="assets/lw2.png" alt="Logo 2" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        </div>
+                        <div class="group relative aspect-square bg-white/5 rounded-xl overflow-hidden border border-white/10">
+                            <img src="assets/lw3.png" alt="Logo 3" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        </div>
+                        <div class="group relative aspect-square bg-white/5 rounded-xl overflow-hidden border border-white/10">
+                            <img src="assets/lw4.png" alt="Logo 4" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <script src="js/tabs.js"></script>
+</body>
+</html>
