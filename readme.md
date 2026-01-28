@@ -19,30 +19,30 @@ It offers merchandise and music related tools.
 
 ### Web
 
-    YTD (youtube downloader) -- W.I.P (you dont know how fucking hard it is to hide a server from youtube.)
+YTD (youtube downloader) -- W.I.P (you dont know how fucking hard it is to hide a server from youtube.)
 
-    Splitter -- (Splits music into tracks (e.g. vocals, guitar, drums, etc..))
+Splitter -- (Splits music into tracks (e.g. vocals, guitar, drums, etc..))
     
 ### Software
 
-    YTD (Youtube downloader) -- (Easy because you dont need a fucking server to work with)
-    lewitch Studio (DAW) -- (inspired by ableton) (WIP) -- (Not any time soon.)
+YTD (Youtube downloader) -- (Easy because you dont need a fucking server to work with)
+lewitch Studio (DAW) -- (inspired by ableton) (WIP) -- (Not any time soon.)
 
 
 ## What are the lewitch libraries?
 
 ### webui framework
 
-    some of our gui is made with lewui.js our very own shitty gui framework. Your very welcome to use it or hell, even make it production code ready but its really just for creating our websites. Shit, maybe ill make a universal gui web framework myself.
+some of our gui is made with lewui.js our very own shitty gui framework. Your very welcome to use it or hell, even make it production code ready but its really just for creating our websites. Shit, maybe ill make a universal gui web framework myself.
 
 ### Why are you using ai for some of this?
 
-    Well when ai came out I got so excited that I just used ai for 90% of my code without even knowing
-    how it works. Yes, im learning now because I realise its not mine if its just all ai. And yk what? Instead of fighting ai im embracing it but not the way you think. Im not using 90 percent ai for all of my code I use it as a tool, a tool to help me understand whats wrong and whats going on in complex operations.
+Well when ai came out I got so excited that I just used ai for 90% of my code without even knowing
+how it works. Yes, im learning now because I realise its not mine if its just all ai. And yk what? Instead of fighting ai im embracing it but not the way you think. Im not using 90 percent ai for all of my code I use it as a tool, a tool to help me understand whats wrong and whats going on in complex operations.
 
 
 ### What did you use ai for?
 
-    I used ai for errors and debugging code.
+I used ai for errors and debugging code.
 
 **THANKS FOR READING ME!**
