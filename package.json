@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "install": "npm install express http fs path",
+    "start": "node main.js"
+  },
+
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
