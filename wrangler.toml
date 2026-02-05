@@ -1,0 +1,11 @@
+name = "dist-site"
+main = "worker.js"
+compatibility_date = "2025-02-05"
+type = "javascript"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }

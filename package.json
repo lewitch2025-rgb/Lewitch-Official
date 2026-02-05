@@ -1,10 +1,9 @@
 {
   "scripts": {
-    "install": "npm install express http fs path",
-    "start": "node main.js"
+    "build": "npm run build:site",
+    "build:site": "echo 'Build your site and output to ./dist'"
   },
-
-  "dependencies": {
-    "express": "^5.2.1"
+  "devDependencies": {
+    "wrangler": "^3.0.0"
   }
 }
